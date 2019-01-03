@@ -1,0 +1,67 @@
+
+header {
+	width: 100%;
+	color: #fff;
+}
+
+.header_nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_menu_left {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0089cf;
+	margin: 20px 25px;
+}
+
+.logo img {
+
+}
+
+.nav_menu {
+
+}
+
+.nav_link {
+	font-family: 'Staatliches', cursive;
+	color: #5c5c5c;
+	text-decoration: none;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-right: 20px;
+}
+
+.nav_link:hover {
+	color: #0089cf;
+	border-bottom: 4px solid #0089cf;
+}
+
+.nav_menu_right {
+	margin: 40px 25px;
+}
+
+.nav_menu_right div {
+	display: inline;
+}
+
+.nav_menu_right div > img{
+	/*width: 15px;*/
+}
+
+
+
+
+
+
