@@ -14,7 +14,7 @@ font-family: 'Staatliches', cursive;
 
 
 .bg {
-	width: 100%
+	width: 100%;
 	height: 100%;
 	background-color: #c8cfdc;
 	padding-top: 60px;
@@ -66,13 +66,15 @@ font-family: 'Staatliches', cursive;
 	background-size: cover;
 	background-position: center;
 	margin: 7px;
+	position: relative;
 }
 
 .overlay {
 	width: 22%;
-	height: 260px;
+	height: 267px;
 	background-color: rgba(255, 255, 255, 0.7);
 	position: absolute;
+	z-index: 10;
 }
 
 
